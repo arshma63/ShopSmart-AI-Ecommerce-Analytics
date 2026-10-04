@@ -1,0 +1,23 @@
+ShopSmart AI - Churn Prediction Model
+
+Model:
+Logistic Regression
+
+Target:
+Customer Churn
+
+Churn Definition:
+Customer with more than 90 days since last purchase.
+
+Features:
+- Age
+- Total Orders
+- Total Items
+- Total Spent
+- Average Order Value
+- Recency Days
+
+Risk Levels:
+- Low Risk
+- Medium Risk
+- High Risk
