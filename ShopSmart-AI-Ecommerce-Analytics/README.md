@@ -1,69 +1,46 @@
-# 🛒 ShopSmart AI E-Commerce Analytics
+# 🛍️ ShopSmart AI — E-Commerce Analytics & Churn Prediction
 
-A comprehensive Data Analytics & Machine Learning project built to analyze customer churn, sales performance, and customer spending distribution in an e-commerce platform.
+ShopSmart AI is an end-to-end e-commerce data analytics platform designed to analyze business performance, track key sales metrics, and predict customer churn using machine learning.
 
-ShopSmart-AI-Ecommerce-Analytics/
-│
-├── dashboard/
-│   ├── dashboard_customers.csv
-│   └── dashboard_sales.csv
-│
-├── data/
-│   ├── customer_churn_predictions.csv
-│   ├── customers.csv
-│   ├── orders.csv
-│   └── products.csv
-│
-├── database/
-│   └── shopsmart.db
-│
-├── models/
-│   ├── churn_model.pkl
-│   ├── churn_scaler.pkl
-│   └── model_info.txt
-│
-├── notebooks/
-│   └── ShopSmart_Analytics.ipynb
-│
-└── sql/
-    └── sales_analysis.sql
+---
 
+## 📌 Project Overview
+This project combines **SQL data modeling**, **Power BI interactive dashboards**, and a **Python Machine Learning pipeline** to deliver actionable business insights for e-commerce platforms.
 
-Key Features & Workflows
-Exploratory Data Analysis (EDA):
+### Key Objectives:
+- **Sales Analytics:** Identify top revenue-generating products, sales trends, and regional performance.
+- **Customer Segmentation:** Analyze purchasing behavior and order frequencies.
+- **Predictive Analytics:** Predict customer churn using Machine Learning algorithms (Scikit-Learn).
 
-Customer spending distribution analysis using Python (seaborn & matplotlib).
+---
 
-Customer churn prediction & risk segmentation.
+## 🛠️ Tech Stack & Tools
+- **Data Analysis & ML:** Python (Pandas, NumPy, Scikit-Learn)
+- **Database:** SQLite / Relational SQL
+- **Visualization:** Power BI Desktop
+- **IDE & Version Control:** VS Code, Jupyter Notebooks, Git & GitHub
 
-Database Management & SQL Queries:
+---
 
-Structured SQLite database (shopsmart.db).
+## 📊 Power BI Dashboard Screenshots
 
-Detailed sales analysis queries written in SQL (sales_analysis.sql).
+### 1. Executive Sales Overview
+![Sales Dashboard](dashboard/page1.png)
 
-Machine Learning Model:
+### 2. Customer Churn Analysis
+![Churn Dashboard](dashboard/page2.png)
 
-Pre-trained churn prediction model (churn_model.pkl) with feature scaling (churn_scaler.pkl).
+### 3. Regional Performance & Insights
+![Insights Dashboard](dashboard/page3.png)
 
-Interactive Dashboard Data:
+---
 
-Exported analytical summaries for interactive visualization.
+## ⚙️ How to Run Locally
 
- Tech Stack
-Languages: Python, SQL
-
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
-
-Database: SQLite
-
-Tools: Jupyter Notebook, VS Code
-
-
-How to Run Locally
-Clone the repository:
-git clone [https://github.com/arshma63/ShopSmart-AI-Ecommerce-Analytics.git](https://github.com/arshma63/ShopSmart-AI-Ecommerce-Analytics.git)
+1. **Clone the Repository:**
+git clone https://github.com/arshma63/ShopSmart-AI-Ecommerce-Analytics.git
 cd ShopSmart-AI-Ecommerce-Analytics
-
-Open Jupyter Notebook
-jupyter notebook notebooks/ShopSmart_Analytics.ipynb 
+2. **Open Jupyter Notebook:**
+jupyter notebook notebooks/ShopSmart_Analytics.ipynb
+3. **Power BI Dashboard:**
+Open the `.pbix` file inside the `dashboard/` directory using **Power BI Desktop**.
