@@ -1,10 +1,10 @@
-# 🛍️ ShopSmart AI — E-Commerce Analytics & Churn Prediction
+#  ShopSmart AI — E-Commerce Analytics & Churn Prediction
 
 ShopSmart AI is an end-to-end e-commerce data analytics platform designed to analyze business performance, track key sales metrics, and predict customer churn using machine learning.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project combines **SQL data modeling**, **Power BI interactive dashboards**, and a **Python Machine Learning pipeline** to deliver actionable business insights for e-commerce platforms.
 
 ### Key Objectives:
@@ -14,7 +14,7 @@ This project combines **SQL data modeling**, **Power BI interactive dashboards**
 
 ---
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 - **Data Analysis & ML:** Python (Pandas, NumPy, Scikit-Learn)
 - **Database:** SQLite / Relational SQL
 - **Visualization:** Power BI Desktop
@@ -22,7 +22,7 @@ This project combines **SQL data modeling**, **Power BI interactive dashboards**
 
 ---
 
-## 📊 Power BI Dashboard Screenshots
+##  Power BI Dashboard Screenshots
 
 ### 1. Executive Sales Overview
 ![Sales Dashboard](dashboard/page1.png)
@@ -35,7 +35,7 @@ This project combines **SQL data modeling**, **Power BI interactive dashboards**
 
 ---
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 1. **Clone the Repository:**
 git clone https://github.com/arshma63/ShopSmart-AI-Ecommerce-Analytics.git
