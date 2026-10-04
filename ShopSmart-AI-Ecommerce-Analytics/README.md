@@ -62,7 +62,7 @@ Tools: Jupyter Notebook, VS Code
 
 How to Run Locally
 Clone the repository:
-git clone [https://github.com/YOUR_USERNAME/ShopSmart-AI-Ecommerce-Analytics.git](https://github.com/YOUR_USERNAME/ShopSmart-AI-Ecommerce-Analytics.git)
+git clone [https://github.com/arshma63/ShopSmart-AI-Ecommerce-Analytics.git](https://github.com/arshma63/ShopSmart-AI-Ecommerce-Analytics.git)
 cd ShopSmart-AI-Ecommerce-Analytics
 
 Open Jupyter Notebook
